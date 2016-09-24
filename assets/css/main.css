@@ -271,15 +271,14 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header_bg.jpg) no-repeat center top;
-	margin-top: -50px;
+	background: url(/assets/img/header_bg.jpg) no-repeat center top;
 	padding-top:120px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+  height: 100%;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -393,7 +392,7 @@ a:after {
     background-size: cover;
 
     background-attachment: relative;
-    
+
     text-align: center;
 }
 
@@ -412,28 +411,28 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-	background-image: url('../img/bg/divider1.jpg');
+	background-image: url('/assets/img/bg/divider1.jpg');
 	text-shadow: 1px 1px 1px silver;
 }
 
 .divider2 {
-	background-image: url('../img/bg/divider2.jpg');
+	background-image: url('/assets/img/bg/divider2.jpg');
 	text-shadow: 1px 1px 1px black;
 }
 
 .divider3 {
-	background-image: url('../img/bg/divider3.jpg');
+	background-image: url('/assets/img/bg/divider3.jpg');
 	margin-top: 0px;
 	text-shadow: 1px 1px 1px black;
 }
 
 .divider4 {
-	background-image: url('../img/bg/divider4.jpg');
+	background-image: url('/assets/img/bg/divider4.jpg');
 	text-shadow: 2px 2px 2px black;
 }
 
 .divider6 {
-	background-image: url('../img/bg/divider6.jpg');
+	background-image: url('/assets/img/bg/divider6.jpg');
 	height: 350px;
 }
 
@@ -521,7 +520,7 @@ a:after {
 	font-weight: 700;
 	text-align: left;
 	letter-spacing: 2px;
-	
+
 }
 
 .grid figcaption a {
@@ -596,7 +595,7 @@ a:after {
 	background: #2b2b2b;
 	padding-right: 0px;
 	padding-left: 0px;
-	
+
 }
 
 .blog-bg h4 {
@@ -639,4 +638,3 @@ a:after {
 		line-height: 38px;
 	}
 }
-

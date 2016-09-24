@@ -87,7 +87,7 @@ jshint: {
     }
   },
   monticristi: {
-    src: ['<%= project.assets %>/js/**/*.js']
+    src: ['<%= project.assets %>/js/custom/**/*.js']
   }
 },
 
@@ -142,7 +142,7 @@ watch: {
     livereload: true
   },
   monticristi: {
-    files: ['<%= project.assets %>/js/**/*.js', '<%= project.assets %>/scss/**/*.scss'],
+    files: ['<%= project.assets %>/js/**/*.js', '<%= project.assets %>/scss/**/*.scss', '<%= project.assets %>/css/**/*.css'],
     tasks: ['jshint', 'concat:sass', 'sass', 'concat', 'uglify']
   }
 }
