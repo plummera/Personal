@@ -143,7 +143,7 @@ watch: {
   },
   monticristi: {
     files: ['<%= project.assets %>/js/**/*.js', '<%= project.assets %>/scss/**/*.scss', '<%= project.assets %>/css/**/*.css'],
-    tasks: ['jshint', 'concat:sass', 'sass', 'concat', 'uglify']
+    tasks: ['concat:sass', 'sass', 'concat', 'uglify']
   }
 }
 });
@@ -161,6 +161,6 @@ grunt.loadNpmTasks('grunt-contrib-livereload');
 grunt.loadNpmTasks('grunt-contrib-compass');
 
 // Default task.
-grunt.registerTask('default', ['jshint', 'concat:sass', 'sass', 'concat', 'uglify']);
+grunt.registerTask('default', ['concat:sass', 'sass', 'concat', 'uglify']);
 
 };

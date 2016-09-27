@@ -1,0 +1,21 @@
+#animation {
+  -webkit-transition: all 4s ease;
+  -moz-transition: all 4s ease;
+  transition: all 4s ease; }
+
+.shadow {
+  background-color: rgba(10,110,50,0.6);
+  border: none;
+
+  a {
+    color: black !important;
+  }
+
+  li.active a {
+    color: #ffd700 !important;
+  }
+}
+
+.no_show {
+  display: none !important;
+}

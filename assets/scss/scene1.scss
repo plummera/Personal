@@ -1,0 +1,25 @@
+.skills {
+  border-bottom: 1px solid white;
+  height: auto;
+  padding: 0 0 0 0;
+  text-align: center;
+
+  ul {
+    background: url(/assets/img/bg/b_g.png) repeat center top;
+    border: 10px solid white;
+    border-radius: 25px;
+    color: #b9ad6c;
+    display: -webkit-box;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    list-style-type: none;
+    margin-bottom: 0px;
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  li {
+    line-height: 1.3em;
+    padding: 0.2em 0;
+  }
+}

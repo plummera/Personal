@@ -2,11 +2,14 @@
   top: 87%;
   display: block;
   position: absolute;
-  left: 47%;
+  left: 48.5%;
 
   img {
     width: 3em;
     height: 3em;
+    border: 3px solid #ffd700;
+    border-radius: 25px;
+    padding: 4px;
   }
 }
 
