@@ -1,25 +1,35 @@
+.divider1 {
+  min-height: 20em;
+}
+
 .skills {
-  border-bottom: 1px solid white;
+  border: 0.1px solid black;
   height: auto;
+  min-height: 10em;
   padding: 0 0 0 0;
   text-align: center;
+}
 
-  ul {
-    background: url(/assets/img/bg/b_g.png) repeat center top;
-    border: 10px solid white;
-    border-radius: 25px;
-    color: #b9ad6c;
-    display: -webkit-box;
-    font-size: 1.5em;
-    letter-spacing: 0.2em;
-    list-style-type: none;
-    margin-bottom: 0px;
-    padding: 0.5em;
-    text-align: center;
-  }
+#angular img {
+  width: 75%
+}
 
-  li {
-    line-height: 1.3em;
-    padding: 0.2em 0;
-  }
+#html5 img {
+  width: 37%;
+}
+
+#drupal img {
+  width: 37%;
+}
+
+#mysql img {
+  width: 42%;
+}
+
+#node img {
+  width: 75%;
+}
+
+#python img {
+  width: 22%;
 }

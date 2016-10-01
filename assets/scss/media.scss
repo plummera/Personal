@@ -1,0 +1,56 @@
+///////////////// WIDTH (RESPONSIVE) ////////////////
+
+@media screen and (max-width: 414px) {
+  #blog {
+    padding: 0px;
+  }
+
+  #drupal img {
+    margin: 1em 2em !important;
+  }
+
+  #footerwrap {
+  	background: #2b2b2b;
+  	margin-top: 0px;
+  	padding-top: 0px !important;
+  	padding-bottom: 0px !important;
+  	border-bottom: 1px solid #ddd;
+  	text-align: center;
+  }
+
+  #html5 img {
+    padding: 0px !important;
+  }
+
+  #mysql img {
+    margin: 1em 1em !important;
+  }
+
+  #node img {
+    padding: 0px !important;
+  }
+
+  #intro {
+    padding-top: 50px;
+  }
+
+  #selfie {
+    display: inline;
+    margin-top: 0px !important;
+  }
+
+  #skills {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #signature {
+    font-size: 8px;
+  }
+
+  .skills {
+    height: auto !important;
+    min-height: 0px !important;
+    padding: 1px !important;
+  }
+}

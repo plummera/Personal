@@ -313,23 +313,17 @@ a:after {
 }
 
 #greywrap {
-	background: #f5f5f5;
+	background: #fff;
 	margin-top: 0px;
 	padding-top: 40px;
-	border-bottom: 1px solid #ddd;
 	text-align: center;
-}
-
-#greywrap .callout {
-	margin-bottom: 20px;
-}
+} 
 
 #greywrap p {
 	margin-left: 30px;
 	margin-right: 30px;
 	letter-spacing: 1px;
 	padding-top: 15px;
-	padding-bottom: 15px;
 }
 
 #greywrap .icon {
@@ -341,8 +335,8 @@ a:after {
 #footerwrap {
 	background: #2b2b2b;
 	margin-top: 0px;
-	padding-top: 40px;
-	padding-bottom: 20px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 	border-bottom: 1px solid #ddd;
 	text-align: center;
 }

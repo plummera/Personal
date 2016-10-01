@@ -3,9 +3,15 @@
   -moz-transition: all 4s ease;
   transition: all 4s ease; }
 
+#navbar-main {
+  position: fixed;
+  z-index: 100;
+}
+
 .shadow {
-  background-color: rgba(10,110,50,0.6);
+  background-color: #127238;
   border: none;
+  opacity: 0.95;
 
   a {
     color: black !important;
@@ -16,6 +22,25 @@
   }
 }
 
+.navbar {
+  margin-bottom: 0px !important;
+  position: inherit;
+}
+
 .no_show {
   display: none !important;
+}
+
+.scene {
+  overflow: hidden;
+}
+
+#about {
+  ul {
+    padding: 0px;
+  }
+
+  li {
+    list-style-type: none;
+  }
 }

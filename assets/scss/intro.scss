@@ -1,6 +1,6 @@
 #intro {
 	background: url(/assets/img/header_bg.jpg) no-repeat center top;
-	padding-top:120px;
+	padding-top: 180px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -37,4 +37,14 @@
 	letter-spacing: 3px;
 	margin-left: 15px;
 	text-shadow: 1px 1px 1px #000;
+}
+
+#arrow {
+	z-index: 3;
+}
+
+#site-wrapper {
+	position: inherit;
+	padding: 0;
+	height: 100%;
 }

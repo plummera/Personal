@@ -31,4 +31,15 @@ $(document).ready(function() {
   new ScrollMagic.Scene({triggerElement: "#Scene1", triggerHook: "onLeave", duration: "100%"})
                   .setTween(scene1Fade)
                   .addTo(controller);
+
+
+  // //Top Navigation Menu pin
+  // new ScrollMagic.Scene({
+  //   triggerElement: "body",
+  //   triggerHook: "onLeave",
+  // })
+  // .setPin("#navbar-main")
+  // .addTo(controller);
+
+
 });
