@@ -1,0 +1,23 @@
+#scene3 {
+  overflow: hidden;
+
+  .container {
+    background: url(/assets/img/bg/background2.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+#about {
+  li {
+    color: white;
+  }
+}
+
+.white h1 {
+  color: white;
+}

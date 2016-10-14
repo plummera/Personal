@@ -1,4 +1,4 @@
-/*! Anthony Plummer - v0.1.1 - 2016-10-01
+/*! Anthony Plummer - v0.1.1 - 2016-10-14
  * http://anthonyplummer.elementfx.com/
 * Copyright (c) 2016 Anthony T. Plummer; Licensed Black & Tan */
 #animation {
@@ -258,11 +258,27 @@
   min-height: 20em;
 }
 
+.instructionalArrow {
+  bottom: 15%;
+  height: 10px;
+  left: 50%;
+  opacity: 0;
+  position: fixed;
+  width: 10px;
+
+  #downArrow {
+    height: 40px;
+    margin-left: -27px;
+    width: 64px;
+  }
+}
+
+
 .skills {
   border: 0.1px solid black;
   height: auto;
   min-height: 10em;
-  padding: 0 0 0 0;
+  padding: 20px 0 0 0;
   text-align: center;
 }
 
@@ -270,11 +286,17 @@
   width: 75%
 }
 
-#html5 img {
+#drupal img {
   width: 37%;
 }
 
-#drupal img {
+#fadeBlock1 {
+  height: 3000px;
+  width: 100%;
+  background: black;
+}
+
+#html5 img {
   width: 37%;
 }
 
@@ -289,4 +311,63 @@
 #python img {
   width: 22%;
 }
+
+#scene2 {
+  background: none;
+}
+
+#video {
+  height: 797px;
+  width: 100%;
+}
+
+#leftFrame {
+  padding: 1em;
+  text-align: center;
+
+  h2 {
+    color: gold;
+  }
+}
+
+#rightFrame {
+  text-align: center;
+
+  img {
+    background: none;
+    height: 100px;
+  }
+}
+
+#pillbox {
+  height: 100px;
+  opacity: 0.6;
+  margin: -43em 0;
+  padding: 0em 14em;
+}
+
+#scene3 {
+  overflow: hidden;
+
+  .container {
+    background: url(/assets/img/bg/background2.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+#about {
+  li {
+    color: white;
+  }
+}
+
+.white h1 {
+  color: white;
+}
+
 

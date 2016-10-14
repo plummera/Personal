@@ -1,0 +1,33 @@
+#scene2 {
+  background: none;
+}
+
+#video {
+  height: 797px;
+  width: 100%;
+}
+
+#leftFrame {
+  padding: 1em;
+  text-align: center;
+
+  h2 {
+    color: gold;
+  }
+}
+
+#rightFrame {
+  text-align: center;
+
+  img {
+    background: none;
+    height: 100px;
+  }
+}
+
+#pillbox {
+  height: 100px;
+  opacity: 0.6;
+  margin: -43em 0;
+  padding: 0em 14em;
+}
