@@ -2143,7 +2143,6 @@ $(document).ready(function() {
     duration: 1950
   })
   .setTween(arrowLoop)
-  .addIndicators({name: "2nd Arrow Loop"})
   .addTo(scene);
 
   // arrow Fade In
@@ -2155,7 +2154,6 @@ $(document).ready(function() {
     offset: 150,
   })
   .setTween(arrowFadeIn)
-  .addIndicators({name: "arrowFadeIn"})
   .addTo(scene);
 
   // arrow Fade Out
@@ -2168,7 +2166,6 @@ $(document).ready(function() {
     offset: 1600,
   })
   .setTween(arrowFadeOut)
-  .addIndicators({name: "arrowFadePut"})
   .addTo(scene);
 });
 
