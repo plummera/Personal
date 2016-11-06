@@ -7,7 +7,7 @@
 		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 		<meta content="Anthony Plummer, Pro-Scale Web Developer +UI/UX HTML5 CSS3 JQUERY javascript angularJS Symfony2 PHP ruby python MySQL Linux stack" name="description" />
 		<meta content="Anthony Plummer" name="author" />
-		<link href="/assets/ico/favicon.png" rel="shortcut icon" />
+		<link href="/assets/favicon.png" rel="shortcut icon" />
 
 		<!-- Use title if it's in the page YAML frontmatter -->
 		<title>Anthony T. Plummer</title>
@@ -16,10 +16,10 @@
 
 		<!-- <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css" />
 		<link href="http://fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet" type="text/css" /> -->
-		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
-		<script src="/assets/js/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
 
-		<script type="text/javascript" src="https://blockchain.info/Resources/wallet/pay-now-button.js"></script>
+		<script type="text/javascript" src="https://blockchain.info/Resources/js/pay-now-button.js"></script>
 
 
 		<script src="/node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js" type="text/javascript"></script>
@@ -152,7 +152,7 @@
 
 			    </div>
 
-					<div id="instruct_1" class="instructionalArrow"><img id="downArrow" src="/assets/img/downArrow.gif" /></div>
+					<a id="instruct_1" class="instructionalArrow smoothScroll" href="#fadeBlock1"><img id="downArrow" src="/assets/img/downArrow.gif" /></a>
 
 		    </div>
 
